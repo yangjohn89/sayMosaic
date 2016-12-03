@@ -1,0 +1,87 @@
+.container {
+	text-align: center;
+}
+.container h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 80px;
+	color: #70dbdb;
+	text-align: center;
+}
+
+.form-control {
+	margin-top: 60px;
+}
+
+
+.container button {
+	background-color: #70dbdb;
+	border: 2px solid #70dbdb;
+	font-size: 14px;
+	margin: 0 auto;
+	height: 30px;
+	width: 90px;
+	margin-bottom: 50px;
+
+
+}
+button span {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.widget {
+	display: none;
+	
+
+}
+.error {
+	display: none;
+}
+
+#linknest, #tempctrl {
+	color: white; 
+	font-size: 30px;
+	background-color: #3399ff;
+	position: relative;
+	display: block;
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	padding: 15px;
+	left: 47%;
+	margin-top: 10px;
+
+}
+
+#linknest:hover {
+	background-color: #b3d9ff;
+	cursor: pointer;
+}
+#tempctrl:hover {
+	background-color: #b3d9ff;
+	cursor: pointer;
+}
+.error h1 {
+	font-size: 24px;
+	color: red;
+}
+.modal .modal-dialog .modal-content {
+	background-color: #3399ff;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	top: 300px;
+	position: relative;
+}
+.ui-slider .ui-slider-handle {
+	width: 11px !important;
+	height: 11px !important;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px black;
+}
+#slider {
+	width: 80%;
+	margin: auto;
+	height: 3px;
+}
+

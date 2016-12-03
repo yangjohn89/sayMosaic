@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>say mosaic</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<script src="https://use.fontawesome.com/6441babe17.js"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<h1>Mosaic</h1>
+		<input type="text" class="form-control" placeholder="Type your product" id="productname">
+		<br><br>
+		<button id="btn"><span>Click Here</span></button>
+		
+		<div class="widget">
+			<div id="linknest">
+				<a href="https://saymosaic.com/login"><i class="fa fa-link" aria-hidden="true"></i></a>
+
+			
+			</div>
+			<div id="tempctrl" data-toggle="modal" data-target=".bs-example-modal-md">
+				<i class="fa fa-sun-o" aria-hidden="true"></i>
+
+				
+			</div>
+			<div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="myMediumModalLabel">
+  				<div class="modal-dialog modal-md" role="document">
+    			<div class="modal-content">
+			      	<div>
+			      		<h3>Temperature Control</h3>
+			      	</div>
+			      	<p>Temperature</p>
+
+					<div id="slider"></div>
+					<br>
+
+					<p>Now the temperature is <span id="slider-value"></span></p>
+			      	
+			    </div>
+  				</div>
+				</div>
+		</div>
+		<div class="error">
+			<h1><b>YOU HAVE ENTERED WRONG PRODUCT</b></h1>
+		</div>
+	
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/slider.js"></script>
+</html>
